@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>URL Shortener</h1>
+    <header>
+        <img src="/static/images/LW1 (light).png" alt="Logo" class="logo">
+        <div class="heading-container">
+            <h1>URL Shortener</h1>
+        </div>
+    </header>
     <form action="/shorten" method="post">
-        <input type="text" name="url" placeholder="Enter URL " required>
+        <input type="text" name="url" placeholder="Enter URL" required>
         <button type="submit">Shorten</button>
     </form>
 </body>
