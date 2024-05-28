@@ -5,4 +5,4 @@ git clone https://github.com/LiveWiresSRM2023/URL-Shortener.git
 
 To run the code execute the following command
 
-python app.py run server
+python app.py runserver
