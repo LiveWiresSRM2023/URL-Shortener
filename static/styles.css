@@ -63,7 +63,7 @@ button:hover {
     transform: scale(1.1);
 }
 .gradient-box {
-    background: linear-gradient(135deg, rgba(9, 255, 0, 0.7), rgba(0, 179, 18, 0.7));
+    background: linear-gradient(135deg, rgba(9, 255, 0, 0.7), rgba(19, 142, 32, 0.7));
     padding: 20px;
     border-radius: 10px;
     width: 100%;
